@@ -1,0 +1,41 @@
+site_name: m-pay API Documentation
+site_description: Merchant Integration Guide
+site_author: m-pay
+
+nav:
+  - Quick Start: index.md
+  - General Notes: general-notes.md
+  - Authentication & Signatures: authentication.md
+  - Request Format: request-format.md
+  - Payments:
+      - Payment Registration: payment-registration.md
+      - Payment Execution: payment-execution.md
+      - Payment Status: payment-status.md
+      - Refunds: refunds.md
+      - Recurring Payments: recurring.md
+  - Wallets:
+      - Apple Pay: apple-pay.md
+      - Google Pay: google-pay.md
+  - Payouts: payouts.md
+  - Webhooks & Callbacks: webhooks.md
+  - Error Codes: error-codes.md
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue grey
+
+markdown_extensions:
+  - admonition
+  - tables
+  - fenced_code
+  - codehilite
+
+extra:
+  version: v1
