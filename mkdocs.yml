@@ -27,15 +27,6 @@ theme:
     - navigation.expand
     - navigation.instant
     - content.code.copy
-  palette:
-    scheme: default
-    primary: blue grey
-
-markdown_extensions:
-  - admonition
-  - tables
-  - fenced_code
-  - codehilite
 
 extra:
   version: v1
